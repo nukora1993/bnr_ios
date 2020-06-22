@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Xcode 4.1" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="AssetType" representedClassName="AssetType" syncable="YES" codeGenerationType="class">
         <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="assetType" inverseEntity="Item" syncable="YES"/>
     </entity>
     <entity name="Item" representedClassName="Item" syncable="YES">
         <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
@@ -12,10 +12,10 @@
         <attribute name="serialNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="thumbnail" optional="YES" attributeType="Transformable" valueTransformerName="ImageTransformer" syncable="YES"/>
         <attribute name="valueInDollars" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="assetType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AssetType" syncable="YES"/>
+        <relationship name="assetType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AssetType" inverseName="items" inverseEntity="AssetType" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="163"/>
         <element name="AssetType" positionX="-54" positionY="45" width="128" height="73"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="163"/>
     </elements>
 </model>

@@ -16,14 +16,15 @@
 		A0622975248E74E8009A78B4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0622973248E74E8009A78B4 /* DetailViewController.m */; };
 		A0622979248F29E2009A78B4 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A0622978248F29E2009A78B4 /* ImageStore.m */; };
 		A06229A4249206E6009A78B4 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A06229A3249206E6009A78B4 /* ItemCell.m */; };
-		A06229A6249206FF009A78B4 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06229A5249206FF009A78B4 /* ItemCell.xib */; };
 		A06229A924921C06009A78B4 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06229A824921C06009A78B4 /* ImageViewController.m */; };
 		A06229CE249271A9009A78B4 /* Homepwner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A06229CC249271A9009A78B4 /* Homepwner.xcdatamodeld */; };
 		A06229D1249272F9009A78B4 /* ImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A06229D0249272F9009A78B4 /* ImageTransformer.m */; };
 		A06229DD2493AEAE009A78B4 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A06229DC2493AEAE009A78B4 /* Item.m */; };
 		A06229E02493C04A009A78B4 /* AssetTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A06229DF2493C04A009A78B4 /* AssetTypeViewController.m */; };
-		A06229ED249475CD009A78B4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A06229EF249475CD009A78B4 /* DetailViewController.xib */; };
 		A06229F62495C325009A78B4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A06229F52495C325009A78B4 /* Settings.bundle */; };
+		A0622A2924990247009A78B4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0622A2724990247009A78B4 /* DetailViewController.xib */; };
+		A0622A2D24990522009A78B4 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0622A2F24990522009A78B4 /* ItemCell.xib */; };
+		A0622A3224990847009A78B4 /* Localizeable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0622A3124990847009A78B4 /* Localizeable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,6 @@
 		A0622978248F29E2009A78B4 /* ImageStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
 		A06229A2249206E6009A78B4 /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		A06229A3249206E6009A78B4 /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
-		A06229A5249206FF009A78B4 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		A06229A724921C06009A78B4 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		A06229A824921C06009A78B4 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		A06229CD249271A9009A78B4 /* Homepwner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Homepwner.xcdatamodel; sourceTree = "<group>"; };
@@ -55,9 +55,13 @@
 		A06229DC2493AEAE009A78B4 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		A06229DE2493C04A009A78B4 /* AssetTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetTypeViewController.h; sourceTree = "<group>"; };
 		A06229DF2493C04A009A78B4 /* AssetTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetTypeViewController.m; sourceTree = "<group>"; };
-		A06229F3249477A9009A78B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DetailViewController.xib; sourceTree = "<group>"; };
-		A06229F424947808009A78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DetailViewController.strings; sourceTree = "<group>"; };
 		A06229F52495C325009A78B4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A0622A2A2499035A009A78B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		A0622A2B24990393009A78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/DetailViewController.strings; sourceTree = "<group>"; };
+		A0622A2C24990393009A78B4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A0622A2E24990522009A78B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ItemCell.xib; sourceTree = "<group>"; };
+		A0622A3024990648009A78B4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DetailViewController.strings"; sourceTree = "<group>"; };
+		A0622A3124990847009A78B4 /* Localizeable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizeable.strings; path = Homepwner/Localizeable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +78,13 @@
 		A0622941248E25F6009A78B4 = {
 			isa = PBXGroup;
 			children = (
+				A0622A3124990847009A78B4 /* Localizeable.strings */,
 				A06229F52495C325009A78B4 /* Settings.bundle */,
 				A06229DB2493AEAE009A78B4 /* Item.h */,
 				A06229DC2493AEAE009A78B4 /* Item.m */,
 				A06229A2249206E6009A78B4 /* ItemCell.h */,
 				A06229A3249206E6009A78B4 /* ItemCell.m */,
-				A06229A5249206FF009A78B4 /* ItemCell.xib */,
+				A0622A2F24990522009A78B4 /* ItemCell.xib */,
 				A0622977248F29E2009A78B4 /* ImageStore.h */,
 				A0622978248F29E2009A78B4 /* ImageStore.m */,
 				A062296D248E2C1B009A78B4 /* ItemStore.h */,
@@ -110,11 +115,11 @@
 		A062294C248E25F6009A78B4 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				A0622A2724990247009A78B4 /* DetailViewController.xib */,
 				A062294D248E25F6009A78B4 /* AppDelegate.h */,
 				A062294E248E25F6009A78B4 /* AppDelegate.m */,
 				A0622972248E74E8009A78B4 /* DetailViewController.h */,
 				A0622973248E74E8009A78B4 /* DetailViewController.m */,
-				A06229EF249475CD009A78B4 /* DetailViewController.xib */,
 				A0622950248E25F7009A78B4 /* Assets.xcassets */,
 				A0622952248E25F7009A78B4 /* LaunchScreen.storyboard */,
 				A0622955248E25F7009A78B4 /* Info.plist */,
@@ -166,6 +171,7 @@
 				en,
 				Base,
 				es,
+				"zh-Hans",
 			);
 			mainGroup = A0622941248E25F6009A78B4;
 			productRefGroup = A062294B248E25F6009A78B4 /* Products */;
@@ -182,11 +188,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A06229A6249206FF009A78B4 /* ItemCell.xib in Resources */,
+				A0622A2D24990522009A78B4 /* ItemCell.xib in Resources */,
+				A0622A3224990847009A78B4 /* Localizeable.strings in Resources */,
 				A0622951248E25F7009A78B4 /* Assets.xcassets in Resources */,
+				A0622A2924990247009A78B4 /* DetailViewController.xib in Resources */,
 				A06229F62495C325009A78B4 /* Settings.bundle in Resources */,
 				A0622954248E25F7009A78B4 /* LaunchScreen.storyboard in Resources */,
-				A06229ED249475CD009A78B4 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,17 +226,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0622953248E25F7009A78B4 /* Base */,
+				A0622A2C24990393009A78B4 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		A06229EF249475CD009A78B4 /* DetailViewController.xib */ = {
+		A0622A2724990247009A78B4 /* DetailViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A06229F3249477A9009A78B4 /* Base */,
-				A06229F424947808009A78B4 /* es */,
+				A0622A2A2499035A009A78B4 /* Base */,
+				A0622A2B24990393009A78B4 /* es */,
+				A0622A3024990648009A78B4 /* zh-Hans */,
 			);
 			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		A0622A2F24990522009A78B4 /* ItemCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0622A2E24990522009A78B4 /* Base */,
+			);
+			name = ItemCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

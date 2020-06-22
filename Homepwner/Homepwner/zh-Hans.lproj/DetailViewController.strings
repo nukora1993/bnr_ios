@@ -1,15 +1,15 @@
 
 /* Class = "UILabel"; text = "Name"; ObjectID = "AXe-v3-KMw"; */
-"AXe-v3-KMw.text" = "Name";
+"AXe-v3-KMw.text" = "名称";
 
 /* Class = "UILabel"; text = "Value"; ObjectID = "Ihz-oa-Ifh"; */
-"Ihz-oa-Ifh.text" = "Value";
+"Ihz-oa-Ifh.text" = "价格";
 
 /* Class = "UILabel"; text = "Serial"; ObjectID = "SVd-fz-eLD"; */
-"SVd-fz-eLD.text" = "Serial";
+"SVd-fz-eLD.text" = "序列号";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "et0-aZ-RQ2"; */
-"et0-aZ-RQ2.text" = "Label";
+"et0-aZ-RQ2.text" = "标签";
 
 /* Class = "UIBarButtonItem"; title = "asset"; ObjectID = "n7N-Jz-7Ej"; */
-"n7N-Jz-7Ej.title" = "asset";
+"n7N-Jz-7Ej.title" = "资产类型";

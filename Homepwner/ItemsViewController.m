@@ -315,7 +315,7 @@
             }
             
 //            CGRect rect = [self.view convertRect:cell.thumbnailView.bounds toView:cell.thumbnailView];
-               CGRect rect = [self.view convertRect:strongCell.thumbnailView.bounds toView:strongCell.thumbnailView];
+            CGRect rect = [self.view convertRect:strongCell.thumbnailView.bounds toView:strongCell.thumbnailView];
             
             ImageViewController *ivc = [[ImageViewController alloc] init];
             ivc.image = img;
